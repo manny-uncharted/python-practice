@@ -22,3 +22,6 @@ The reason was that for expanding, if we change the size we can’t be sure ( it
 - When you need to store a large number of similar items of the same data type
 
 - Used to implement other data structures like stacks, queues,heaps, hash tables, linked lists, trees, graphs, etc.
+
+### Why do we need arrays?
+- On a regualr occasion when we have a small number of objects, we can use variables to store them, but if we want to store a large number of instances, it becomes difficult to manage them with normal varibles. The idea of an array is to represent many instances in one variable
