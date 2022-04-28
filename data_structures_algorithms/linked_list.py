@@ -46,7 +46,7 @@ class LinkedList:
 
 		# 1. Check if the given prev_node exists
 		if prev_node is None:
-			print "The given previous node must inLinkedList."
+			# print "The given previous node must inLinkedList."
 			return
 
 		# 2. Create new node &
@@ -90,7 +90,7 @@ class LinkedList:
 	def printList(self):
 		temp = self.head
 		while (temp):
-			print temp.data,
+			# print temp.data,
 			temp = temp.next
 
 # Code execution starts here
@@ -100,7 +100,7 @@ if __name__=='__main__':
 	llist = LinkedList()
 
 	# Insert 6. So linked list
-	becomes 6->None
+	# becomes 6->None
 	llist.append(6)
 
 	# Insert 7 at the beginning. So
@@ -119,5 +119,5 @@ if __name__=='__main__':
 	# becomes 1 -> 7-> 8-> 6-> 4-> None
 	llist.insertAfter(llist.head.next, 8)
 
-	print 'Created linked list is:',
+	# print 'Created linked list is:',
 	llist.printList()
